@@ -8,6 +8,7 @@ Mutiny Developer Sandbox
 ```
 cd ~/git/github.com/MutinyWallet/mutiny-web
 nvm install 16
+npm install -g pnpm
 pnpm install
 echo Launching web server on https://8080-$(echo $HOSTNAME | cut -f1-3 -d'-').wnext.app
 pnpm run dev --host 0.0.0.0 --port 8080
